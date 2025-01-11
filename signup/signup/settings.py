@@ -80,7 +80,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'signup.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Add the origin of your frontend application
+    "http://localhost:3000", 
+    "https://login-4uem.onrender.com", # Add the origin of your frontend application
 ]
 
 # Database
@@ -130,9 +131,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_FILES_DIRS = [
-    BASE_DIR / 'frontend/build/public',
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
