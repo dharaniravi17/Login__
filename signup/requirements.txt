@@ -6,3 +6,4 @@ sqlparse==0.5.3
 tzdata==2024.2
 gunicorn
 django-cors-headers
+djongo
