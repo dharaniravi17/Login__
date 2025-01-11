@@ -6,4 +6,5 @@ def index(request):
     return render(request, 'index.html')
 
 def test(request):
-    return JsonResponse({'message': 'Hello, World!'})
+    return JsonResponse({'message': 'Hello, World!'})   
+

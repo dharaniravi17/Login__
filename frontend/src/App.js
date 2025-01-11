@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Login from './components/Login';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -11,7 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{message}</h1>
+      <h1>hello</h1>
+      <Login />
     </div>
   );
 }
